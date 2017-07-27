@@ -3,7 +3,7 @@ ARCH='any'
 
 DEPENDS=''
 BUILD_DEPENDS='prog:cmake:cmake prog:make:make prog:c++:g++'
-LIBS='libc:6 libstdc++:6:g++ libreadline:7:libreadline-dev'
+LIBS='libc:6 libstdc++:6:g++ libreadline:6'
 
 INSTALL='[ -e CMakeCache.txt ] && echo "Failed: CMakeCache.txt" && exit 1;'\
 \
